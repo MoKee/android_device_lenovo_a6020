@@ -1,7 +1,7 @@
 # MKHW
 BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    $(LOCAL_PATH)/mkhw \
+    device/lenovo/a6020/mkhw \
     hardware/mokee/mkhw
 
 # Qualcomm support
