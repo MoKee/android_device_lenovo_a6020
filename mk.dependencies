@@ -1,5 +1,9 @@
 [
   {
+    "repository":  "android_vendor_lenovo_a6020",
+    "target_path": "vendor/lenovo/a6020"
+  },
+  {
     "repository":  "android_kernel_lenovo_msm8916",
     "target_path": "kernel/lenovo/msm8916"
   },

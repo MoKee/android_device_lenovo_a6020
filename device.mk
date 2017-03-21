@@ -16,7 +16,7 @@
 #
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += device/lenovo/A6020/overlay
+DEVICE_PACKAGE_OVERLAYS += device/lenovo/a6020/overlay
 
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk

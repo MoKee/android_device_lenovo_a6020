@@ -2,7 +2,7 @@
 device=$(getprop ro.product.device)
 
 ### Patch for old recoveries - start
-if [ "$device" = "default" ] || [ "$device" = "A6020" ]; then 
+if [ "$device" = "default" ] || [ "$device" = "a6020" ]; then 
     board_id="";
     for e in $(cat /proc/cmdline);
     do
