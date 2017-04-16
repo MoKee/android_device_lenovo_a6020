@@ -24,4 +24,3 @@ TARGET_SCREEN_HEIGHT := 1920
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a6020
 PRODUCT_NAME := mk_a6020
-

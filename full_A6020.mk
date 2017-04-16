@@ -28,5 +28,3 @@ PRODUCT_NAME := full_a6020
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Vibe K5
 PRODUCT_MANUFACTURER := Lenovo
-
-$(call inherit-product-if-exists, vendor/lenovo/a6020/a6020-vendor.mk)
