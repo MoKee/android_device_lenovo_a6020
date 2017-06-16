@@ -168,6 +168,9 @@ on boot
     chown system graphics /sys/class/graphics/fb0/mode
     chown system graphics /sys/class/graphics/fb0/modes
 
+    # Permissions required for power HAL
+    chown system system /sys/devices/system/cpu/cpu0/core_ctl/max_cpus
+
     # LED permissions
     chown system system /sys/class/leds/red/blink
     chown system system /sys/class/leds/red/led_time
