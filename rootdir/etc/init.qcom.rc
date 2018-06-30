@@ -146,6 +146,9 @@ on boot
     # Allow access for CCID command/response timeout configuration
     chown system system /sys/module/ccid_bridge/parameters/bulk_msg_timeout
 
+    # When GPU woken by touch events, keep it on until first app render
+    write /sys/class/kgsl/kgsl-3d0/wake_timeout 250
+
     # Mark the copy complete flag to not completed
     write /data/misc/radio/copy_complete 0
     chown radio radio /data/misc/radio/copy_complete
