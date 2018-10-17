@@ -1,7 +1,7 @@
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
-# Mokee hardware
+# MK hardware
 BOARD_HARDWARE_CLASS += \
     device/lenovo/a6020/mkhw
 
