@@ -25,3 +25,6 @@ TARGET_BOOTANIMATION_HALF_RES := true
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a6020
 PRODUCT_NAME := mk_a6020
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.mk.maintainer=IsaacChen
